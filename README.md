@@ -1,4 +1,5 @@
 # Dasha Map
+Fork this repository and submit the URL of your fork via the Student Portal.
 
 * **Objective**
     * To create a HashMap named `DashaMap` without using any class which extends, implements, or uses the built-in `java.util.Collection` interface.
@@ -81,9 +82,9 @@ Node:
     next: Node
 ```
 
-the hash-array needs to get initialized to 26 long of Node, with each value being 'a'..'z'.
+The hash-array needs to get initialized to 26 long of Node, with each value being 'a'..'z'.
 
-read in the list of words in `wordlist.txt`. Each word is on it's own line, with a value,
+Read in the list of words in `wordlist.txt`. Each word is on it's own line, with a value,
 and as each word is read, insert it into each of the three hash-maps, using the word as the key,
 and integer value as the value.
 
@@ -115,7 +116,7 @@ When you get a word/value pair:
 
 and the Hard One is `delete(key-word)`
 
-oy. that's enough.
+Oy. that's enough.
 
 #### Nota Bene:
-If you can figure out a way to make your implmentation GENERIC, you get 2.75million extra points. That's enough to get the level 3 prize, or a very old, tattered, online copy of [Think Data Structures in Java](https://open.umn.edu/opentextbooks/textbooks/think-data-structures-algorithms-and-information-retrieval-in-java)
+If you can figure out a way to make your implementation **GENERIC**, you get 2.75million extra points. That's enough to get the level 3 prize, or a very old, tattered, online copy of [Think Data Structures in Java](https://open.umn.edu/opentextbooks/textbooks/think-data-structures-algorithms-and-information-retrieval-in-java)
